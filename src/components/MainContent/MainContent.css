@@ -1,0 +1,5 @@
+.mainContentHeader{
+    background-color: bisque;
+    display: flex;
+    justify-content: end;
+}
