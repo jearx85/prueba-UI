@@ -13,8 +13,8 @@ export default function MainContent({toggleRightView}) {
       </div>
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
-          <li className="breadcrumb-item"><a href="#">Home</a></li>
-          <li className="breadcrumb-item"><a href="#">Library</a></li>
+          <li className="breadcrumb-item"><a href="/">Home</a></li>
+          <li className="breadcrumb-item"><a href="/">Library</a></li>
           <li className="breadcrumb-item active" aria-current="page">Data</li>
         </ol>
       </nav>
@@ -23,7 +23,7 @@ export default function MainContent({toggleRightView}) {
         <div className="card-body">
             <h5 className="card-title">Special title treatment</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
+            <a href="/" className="btn btn-primary">Go somewhere</a>
         </div>
         </div>
 
@@ -31,7 +31,7 @@ export default function MainContent({toggleRightView}) {
         <div className="card-body">
             <h5 className="card-title">Special title treatment</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
+            <a href="/" className="btn btn-primary">Go somewhere</a>
         </div>
         </div>
 
@@ -39,7 +39,7 @@ export default function MainContent({toggleRightView}) {
         <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="/" class="btn btn-primary">Go somewhere</a>
         </div>
         </div>
     </div>

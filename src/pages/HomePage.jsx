@@ -10,8 +10,8 @@ import Sidebar from '../components/sideBar/SideBar';
 function HomePage() {
   const [isRightViewVisible, setIsRightViewVisible] = useState(true);
   const [isLeftMenuVisible, setIsLeftMenuVisible] = useState(true);
-  const [isLeftViewVisible, setIsLeftViewVisible] = useState(true);
-//   const [leftViewWidth, setLeftViewWidth] = useState(80);
+  const [isLeftViewVisible,] = useState(true);
+
 
   const toggleRightView = () => {
     setIsRightViewVisible(!isRightViewVisible);
@@ -21,15 +21,9 @@ function HomePage() {
     setIsLeftMenuVisible(!isLeftMenuVisible);
   };
 
-  const toggleLeftView = () => {
-    setIsLeftViewVisible(!isLeftViewVisible);
-  };
-
-//   const handleResize = (newWidth) => {
-//     setLeftViewWidth(newWidth);
+//   const toggleLeftView = () => {
+//     setIsLeftViewVisible(!isLeftViewVisible);
 //   };
-
-
 
   let mainContentClasses = 'col p-0';
 
@@ -37,8 +31,6 @@ function HomePage() {
     mainContentClasses += ' ml-5';
   }
 
-  const leftViewRef = React.createRef();
-  const [resizing, setResizing] = useState(false);
 
   return (
     <div className="HomePage">
